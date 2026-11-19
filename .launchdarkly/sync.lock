@@ -1,0 +1,18 @@
+# Written by ldcli sync. Commit this file with the .launchdarkly files.
+formatVersion: 1
+resources:
+  - kind: tool
+    project: evals-from-code-ci
+    key: search_member_policy
+    fingerprint: sha256:e9fd0eb3b727f6f2ffb39c717c5f40603ee2ad68a8ec17fb22428ca121840859
+  - kind: variation
+    project: evals-from-code-ci
+    key: policy-agent/concise
+    fingerprint: sha256:b6eff700286d1d80d8597609614dc3c7717ba4e0af7ea5249c46a2e16b62391b
+  - kind: variation
+    project: evals-from-code-ci
+    key: policy-agent/grounded
+    fingerprint: sha256:455b9e0b328fd2092842b353d4e85ad0f360330113b1cba04e211ef6b337fefd
+    fingerprintSchema: launchdarkly.config.projection/1
+    referenceDigest: sha256:f73ffe2227836723a07515e0afa5a06ff530ad32c690556517b9409f95a50aa7
+    adapterBehavior: python/1

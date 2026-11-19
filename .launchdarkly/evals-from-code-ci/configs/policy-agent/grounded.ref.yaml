@@ -1,0 +1,6 @@
+formatVersion: 1
+file: bootstrap/bootstrap.py
+format: python
+select: constants[id="SYSTEM_PROMPT"]
+map:
+  prompt: $

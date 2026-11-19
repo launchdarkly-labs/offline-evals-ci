@@ -1,0 +1,23 @@
+{
+  "formatVersion": 1,
+  "key": "search_member_policy",
+  "description": "Search the member's own plan documents. Returns the plan and excerpts with document IDs to cite.",
+  "schema": {
+    "additionalProperties": false,
+    "properties": {
+      "member_id": {
+        "description": "Member ID, for example M-1001",
+        "type": "string"
+      },
+      "query": {
+        "description": "What to look for, for example 'specialist copay'",
+        "type": "string"
+      }
+    },
+    "required": [
+      "member_id",
+      "query"
+    ],
+    "type": "object"
+  }
+}
