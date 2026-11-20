@@ -1,4 +1,4 @@
-# Evals from code in CI
+# Offline evals in CI
 
 Run your real agent against a dataset on every pull request, grade it with LaunchDarkly judges and local scorers, and gate the merge on the result. Results land in LaunchDarkly AgentControl next to the config they tested.
 
